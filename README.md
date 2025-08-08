@@ -52,8 +52,8 @@ Variante A: GitHub-Repository klonen
 bash
 Kopieren
 Bearbeiten
-git clone https://github.com/DEIN-BENUTZERNAME/DEIN-REPO.git
-cd DEIN-REPO
+git clone https://github.com/Brunoido90/ICSF-Web-Info-Scanner
+cd ICSF-Web-Info-Scanner
 Variante B: ZIP-Datei von GitHub herunterladen und entpacken.
 
 3️⃣ Benötigte Python-Module installieren
