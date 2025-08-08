@@ -38,19 +38,38 @@ Jeglicher Missbrauch ist illegal und kann strafrechtlich verfolgt werden.
 Der Entwickler übernimmt keine Haftung für Schäden oder unautorisierte Nutzung.
 
 🛠 Installation
-Voraussetzungen
-Python 3.10 oder neuer
+1️⃣ Python installieren
+Lade die aktuelle Python-Version (3.10 oder neuer) von der offiziellen Seite herunter:
+🔗 https://www.python.org/downloads/
 
-Windows oder Linux
+Wichtig: Beim Installieren den Haken setzen bei "Add Python to PATH".
 
-Internetverbindung (für WHOIS & Geo-IP)
+Installation abschließen.
 
-Benötigte Module installieren
+2️⃣ Projekt herunterladen
+Variante A: GitHub-Repository klonen
+
+bash
+Kopieren
+Bearbeiten
+git clone https://github.com/DEIN-BENUTZERNAME/DEIN-REPO.git
+cd DEIN-REPO
+Variante B: ZIP-Datei von GitHub herunterladen und entpacken.
+
+3️⃣ Benötigte Python-Module installieren
+Öffne ein Terminal (CMD oder PowerShell in Windows) und führe aus:
+
 bash
 Kopieren
 Bearbeiten
 pip install requests colorama dnspython python-whois geoip2
-📦 Nutzung
+💡 Falls du mehrere Python-Versionen hast:
+
+bash
+Kopieren
+Bearbeiten
+python -m pip install requests colorama dnspython python-whois geoip2
+4️⃣ Tool starten
 bash
 Kopieren
 Bearbeiten
@@ -61,7 +80,12 @@ text
 Kopieren
 Bearbeiten
 [?] Website-URL (z.B. example.com):
-Der Scan läuft, und das Ergebnis wird farbig in der Konsole angezeigt und in einer Textdatei auf dem Desktop gespeichert.
+Drücke Enter – der Scan startet.
+
+5️⃣ Ergebnisse ansehen
+Farbausgabe in der Konsole
+
+Automatische Speicherung der Ergebnisse als Textdatei auf dem Desktop
 
 📑 Beispielausgabe
 yaml
@@ -84,3 +108,4 @@ Bearbeiten
 📜 Lizenz
 Dieses Projekt steht unter der MIT-Lizenz.
 Frei zur Nutzung, Modifikation und Verteilung – aber nur legal.
+
